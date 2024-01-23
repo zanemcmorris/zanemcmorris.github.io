@@ -38,12 +38,12 @@ html{
   }
   .profile {
     position: relative;
-    margin: 20px 0;
+    margin: .9rem 0;
   }
   
   .profile img {
-    width: 150px; 
-    height: 150px; 
+    width: 9.5rem; 
+    height: 9.5rem; 
     border-radius: 50%; 
     overflow: hidden;
   }
@@ -52,7 +52,7 @@ html{
     display: inline-block;
     text-align: center;
     color: #FFFFFA;
-    margin-right: 10px;
+    margin-right: .7rem;
     font-size: .8rem;
 }
 .social-link:hover{
@@ -98,7 +98,7 @@ h1,h2{
 
 main{
     background-color: #FFFFFA;
-    margin: 0px 10em 0px 10em;
+    margin: 0 10em 0 10em;
     font-size: 1.1em;
     color: #40434E
 }
@@ -117,17 +117,17 @@ main{
   
   .pdf-gallery {
     width: 48%; 
-    margin-bottom: 20px; 
+    margin-bottom: 1.5rem; 
     text-align: center;
   }
   
   .client {
     display: block;
-    height: 200px;
+    height: 12.5rem;
     background-size: cover;
     background-position: center;
-    margin-bottom: 10px; 
-    border-radius: 10px;
+    margin-bottom: 1rem; 
+    border-radius: 1.5rem;
   }
   
   .title {
@@ -150,7 +150,7 @@ main{
   
   .aboutme-content {
     flex: 2;
-    padding-right: 20px; 
+    padding-right: 1.5rem; 
   }
   .image{
     flex: 1;
@@ -160,7 +160,7 @@ main{
     max-width: 100%; 
     height: auto;
     align-items: right;
-    border-radius: 10px;
+    border-radius: .5rem;
   }
   
 
