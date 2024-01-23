@@ -1,4 +1,4 @@
-# Zane McMorri's Portfolio Website
+# Zane McMorris's Portfolio Website
 Author: Ari Guzzi  
 This project was last edited in January 2024.
 
