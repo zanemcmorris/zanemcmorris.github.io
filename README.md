@@ -1,7 +1,6 @@
 # Zane McMorri's Portfolio Website
 Author: Ari Guzzi
-
-## This project was last edited in January 2024.
+This project was last edited in January 2024.
 
 ## Things that need to be completed:
 1. Read through and make sure all the information is accurate and complete. Make sure you like all the styling elements.
