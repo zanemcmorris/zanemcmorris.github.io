@@ -1,131 +1,105 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en"><head>
     <meta charset="utf-8">
     <title>Zane McMorris</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
     <meta name="author" content="Ari Guzzi">
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
-    <div class="fullscreen background" style="background-image: url(gus.jpg);" data-img-width="2125" data-img-height="1080">
-      <div class="content-a" style="color: #efefea;">
-        <div class="content-b">
-          <span class="profile" style="background:url(me.jpg) no-repeat center; "></span>
-          <h2>Zane McMorris</h2>
-          <br>
-            <h4>Student. Engineer. Dog Owner.</h4>
-             <br>
-              <section id="header__social">
-                  <a class="header__social__link" href="https://www.linkedin.com/in/zane-mcmorris/" title="Zane on LinkedIn" target="_blank">LinkedIn</a>
-                  <a class="header__social__link" href="https://github.com/zanemcmorris" title="Zane on GitHub" target="_blank">GitHub</a>
-              </section>
-              <br><br>
-
-            <nav>
-              <div class = "container">
-                  
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-
-                    </button>
-                  </div>
-   
-                  <!-- Collect the nav links, forms, and other content for toggling -->
-                  <div class="collapse navbar-collapse navbar-ex1-collapse">
-                    <li class="headerEntry"><a href="#projectPage">Projects</a></li>
-                      <li class="headerEntry"><a href="gus.jpg" target="_blank">Resume</a></li>
-                      <li class="headerEntry"><a href="mailto:zamcmorris@gmail.com">Email</a></li>
-                  </div>
+    <div class="heading">
+        <div class="background"></div>
+        <div class="content">
+            <h1>Zane McMorris</h1>
+            <div class="profile">
+                <img src="images/me.jpg" alt="Profile Image">
+              </div>
+            <a class="social-link" href="https://www.linkedin.com/in/zane-mcmorris/" target="_blank">LINKEDIN</a>
+            <a class="social-link" href="https://github.com/zanemcmorris" target="_blank">GITHUB</a>
+            <br><br>
+            <div class="topnav">
+            <a href="#engineeringlife"> My Engineering Life</a>
+            <a href="#aboutme"> About me </a>
+            <a href="#portfolio"> My Portfolio </a>
             </div>
-            </nav>
         </div>
-         </div>
     </div>
-    
-    
-    <div class = "container" id = "mainBody" style="padding-top: 70px;">
-      <div class="row center">
-      <h2>Hi, I'm Zane. I like computers, dogs, and paintball.</h2>
-    </div>
-      <section class="row">
-        <hr id="aboutMe">
-          <div>
-        <h3>About Me</h3>
-            <p>I'm working on my bachelors at the University of Colorado, Boulder. I am getting a BS in electrical computing engineering. I will go on to get a masters in embedded software through the accelerated program. 
+      
+    <main class="color-block">
+        <div class = "engineering-life">
+            <br>
+            <h2> Hello! I'm Zane. Welcome to my Personal Website!</h2>
 
+            <h3 id = "engineeringlife">Life as an Engineer</h3>
+            <p>I am an electrical computer engineering student at the University of Colorado Boulder. I am in the Bachelor Accelerated Masters program in which I am studying embedded software.
+            <br><br>
+                I have been interesting in engineering for the majority of my life. In high school, I was captain of the robotics team.
+                During my freshman year, I worked on a team for a projects class where I learned I am a natural leader. I decided to become a TA for several of my favorite classes such as Digital Logic, RTOS, and SOMETHING.
+                In the summer of 2023, I interned at Seagate Technology DID SOMETHING. I thoroughly enjoyed this job and will be returning as a grad intern the summer of 2024.
             </p>
-          </div>
-    </section>
-    
+        </div>
+        <div class = "portfolio">
+            <h3 id = "portfolio">Portfolio</h3>
+            <div class="pdf-grid">
+            <div class="pdf-gallery">
+				<a href="images/pokemon.pdf" target="_blank">
+                    <span class="client" style="height:200px; background:white url(images/dogs.jpg) no-repeat scroll;"></span>
+                </a>
+				<span class="title">Erase Car 2 Electric Boogaloo - <a href="https://github.com/zanemcmorris/EraseCar2ElectricBoogaloo" target="_blank">GitHub</a></span><br>
+				<span class="subtitle">Freshman Projects @ CU, Fall 2021</span>
+			</div>
+            <div class="pdf-gallery">
+				<a href="images/pokemon.pdf" target="_blank">
+                    <span class="client" style="height:200px; background:white url(images/dogs.jpg) no-repeat scroll;"></span>
+                </a>
+				<span class="title">DiffEq Project - <a href="https://github.com/zanemcmorris/APPM2360-Project1" target="_blank">GitHub</a></span><br>
+				<span class="subtitle">Differential Equations with Linear Algebra @ CU, Spring 2021</span>
+			</div>
+            <div class="pdf-gallery">
+				<a href="images/pokemon.pdf" target="_blank">
+                    <span class="client" style="height:200px; background:white url(images/dogs.jpg) no-repeat scroll;"></span>
+                </a>
+				<span class="title">RTOS Project - <a href="https://github.com/zanemcmorris/RTOSFinalProjectWeek1" target="_blank">GitHub</a></span><br>
+				<span class="subtitle">Real Time Operating Systems @ CU, Fall 2021</span>
+			</div>
+            <div class="pdf-gallery">
+				<a href="images/pokemon.pdf" target="_blank">
+                    <span class="client" style="height:200px; background:white url(images/dogs.jpg) no-repeat scroll;"></span>
+                </a>
+				<span class="title">Conway Game of Life - <a href="https://github.com/zanemcmorris/conwayGOL" target="_blank">GitHub</a></span><br>
+				<span class="subtitle">Discrete Math @ CU, Spring 2021</span>
+			</div>
+        </div>
 
-   
-        
-    <section class = "row" id="projectPage">
-      <hr class="small">
-      <h3>My Projects</h3>
-      <div class="testimonials">
-        <div class="row">
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
         </div>
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
+        <h3 id = "aboutme">Who am I?</h3>
+        <div class = "about-me">
+            <div class="aboutme-content">
+            <p>I was born and raised in Gunbarrel, Colorado (about 20 minutes outside of Boulder). I grew up with three dogs: two yellow labs and a german short-haired pointer. 
+            <br><br>
+                In my free time, I enjoy snowboarding, hanging out with my dogs, and playing Counter Strike GO. My freshman and sophmore years of college, I was the captain of CU's CSGO team. Recently, I have been teaching myself how to pick locks as well!
+            </p>
+            </div>
+            <div class="image">
+                <img src="images/fam.png" alt="Me and my family at my brother's wedding">
+              </div>
         </div>
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
+        <br><br>
+    </main>
+    <footer>
+        <div class="contact-info">
+          <a href="mailto:zamcmorris@gmail.com">zamcmorris@gmail.com</a><br><br>
+          <a href="tel:303-868-2507">303-868-2507</a>
         </div>
+        <div class="centered-logo">
+            <h3>ZM</h3>
         </div>
-        <div class="row">
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
+        <div class="links">
+            <a href="https://www.linkedin.com/in/zane-mcmorris/" target="_blank" >LinkedIn</a><br><br>
+            <a href="images/pokemon.pdf" target="_blank">Resume</a>
         </div>
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
-        </div>
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-md-4 text-center">
-          <a href="gus.jpg" target="_blank"><span class="title" style="height:200px; background:white url(gus.jpg) no-repeat scroll center;"></span></a>
-          <span class="title">title</span>
-          <span class="subtitle">subtitle</span>
-          <span class="underline"></span>
-        </div>
-        </div>
-      </div>
-    </section>
-    </div>
-  
-      <footer>
-        <div class="container">
-        <p>Zane McMorris © 2023</p>
-      </div>
-      </footer>
-</body>
-</html>
+    </footer>
+  </body>
