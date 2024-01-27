@@ -96,12 +96,26 @@ h1,h2{
         }
      
 
-main{
-    background-color: #FFFFFA;
-    margin: 0 10em 0 10em;
-    font-size: 1.1em;
-    color: #40434E
-}
+        main {
+          background-color: #FFFFFA;
+          width: 100%;
+          padding: 0 10em;
+          box-sizing: border-box; 
+      }
+      
+      .inner-container {
+          max-width: 100rem; 
+          margin: 0 auto; 
+          color: #40434E;
+          font-size: 1.1em;
+      }
+      
+      /* Additional styling for your text */
+      main p {
+          margin: 1em 0; /* Example margin for paragraphs */
+          /* Add any other text styling as needed */
+      }
+
 
 
     /***********
