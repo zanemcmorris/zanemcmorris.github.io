@@ -112,7 +112,7 @@ h1,h2{
       
       /* Additional styling for your text */
       main p {
-          margin: 1em 0; /* Example margin for paragraphs */
+          margin: 1em 0;
           /* Add any other text styling as needed */
       }
 
@@ -237,10 +237,12 @@ h1,h2{
       .pdf-gallery {
         width: 100%; 
       }
-
-      main{
+      .color-block,
+    .inner-container {
+        width: 100%;
+        padding: 0;
         margin: 0;
-      }
+    }
       footer {
         flex-direction: column; 
         text-align: center; 
