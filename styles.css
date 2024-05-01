@@ -22,16 +22,24 @@
     width: 48%; 
     margin-bottom: 1.5rem; 
     text-align: center;
-  }
-  
-  .client {
-    display: block;
-    height: 12.5rem;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 1rem; 
-    border-radius: 1.5rem;
-  }
+}
+
+.client {
+  display: block;
+  width: 100%;  /* Full width of the parent container */
+  height: 12.5rem; /* Fixed height to ensure uniformity */
+  overflow: hidden; /* Keeps the image contained within the borders */
+  border-radius: 1.5rem;
+  position: relative;  /* Sets position context for absolute positioning of the title */
+  margin-bottom: 0.5rem;
+  background-color: #f0f0f0; /* Provides a background color in case of transparent images */
+}
+.client img {
+  width: 100%; /* Makes the image fill its container */
+  height: 100%;
+  object-fit: contain; /* Ensures the image fits without stretching */
+  border-radius: 1.5rem; /* Maintains the rounded corners */
+}
   
   .title {
     font-weight: bold;
